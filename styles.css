@@ -1,4 +1,4 @@
-/*************fonts********/
+/*****************fonts***********/
 
 p {
   font-family: "raleway", sans-serif;
@@ -20,7 +20,7 @@ a {
   font-family: "raleway", sans-serif;
   font-weight: bold;
 }
-/**********general*********/
+/****************general***************/
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ a {
 .not_rating {
   color: #f2f2f2;
 }
-/**********header***************/
+/****************header**********************/
 
 header {
   width: auto;
@@ -54,7 +54,7 @@ header {
   margin-left: 50px;
 }
 
-.Top_page {
+.top_page {
   height: 125px;
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +99,7 @@ nav {
 .presentation {
   line-height: 2;
 }
-/*******Champs de recherche*********/
+/************Champs de recherche*************/
 .champs_de_recherche {
   display: flex;
   height: 55px;
@@ -165,7 +165,7 @@ nav {
   width: 950px;
   height: 50px;
 }
-/**********Filtres**********/
+/************Filtres*************/
 .button {
   width: auto;
   height: auto;
@@ -218,7 +218,7 @@ nav {
   color: #0065fc;
 }
 
-/************section**************/
+/***************section********************/
 
 section {
   width: auto;
@@ -227,8 +227,8 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-/*********Hebergements à Marseille**********/
-.hébergements {
+/************Hebergements à Marseille*************/
+.hebergements {
   width: 880px;
   height: 625px;
   display: flex;
@@ -239,7 +239,7 @@ section {
   box-shadow: 2px 2px 6px grey;
 }
 
-.hébergements h2 {
+.hebergements h2 {
   margin-top: 50px;
   margin-right: 560px;
   white-space: nowrap;
@@ -277,7 +277,7 @@ section {
   border-top-right-radius: 15px;
 }
 
-.Afficher_plus h3 {
+.afficher_plus h3 {
   font-size: 1.3em;
   height: 15px;
   margin-bottom: 50px;
@@ -345,7 +345,7 @@ section {
   left: 140px;
 }
 
-/**************aside******************/
+/************************aside******************/
 
 aside {
   margin-top: 60px;
@@ -360,7 +360,7 @@ aside h2 {
   white-space: nowrap;
 }
 
-.activités {
+.activites {
   align-items: center;
   margin: auto;
   height: 560px;
@@ -370,12 +370,12 @@ aside h2 {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.activités a > h3 {
+.activites a > h3 {
   margin-top: 10px;
   margin-left: 5px;
 }
 
-.Vieux_port a {
+.vieux_port a {
   height: 460px;
   width: 300px;
   display: flex;
@@ -387,14 +387,14 @@ aside h2 {
   box-shadow: 2px 2px 6px grey;
 }
 
-.Vieux_port img {
+.vieux_port img {
   height: 390px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.Pommègues a {
+.pommegues a {
   height: 240px;
   width: 300px;
   display: flex;
@@ -405,14 +405,14 @@ aside h2 {
   border-bottom-right-radius: 15px;
   box-shadow: 2px 2px 6px grey;
 }
-.Pommègues img {
+.pommegues img {
   height: 190px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.Frioul a {
+.frioul a {
   height: 170px;
   width: 300px;
   display: flex;
@@ -423,14 +423,14 @@ aside h2 {
   border-bottom-right-radius: 15px;
   box-shadow: 2px 2px 6px grey;
 }
-.Frioul img {
+.frioul img {
   height: 110px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.Calanques a {
+.calanques a {
   height: 460px;
   width: 300px;
   display: flex;
@@ -441,14 +441,14 @@ aside h2 {
   border-bottom-right-radius: 15px;
   box-shadow: 2px 2px 6px grey;
 }
-.Calanques img {
+.calanques img {
   height: 380px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.Notre_dame a {
+.notre_dame a {
   height: 200px;
   width: 300px;
   display: flex;
@@ -459,14 +459,14 @@ aside h2 {
   border-bottom-right-radius: 15px;
   box-shadow: 2px 2px 6px grey;
 }
-.Notre_dame img {
+.notre_dame img {
   height: 140px;
   width: 300px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.Longchamps a {
+.longchamps a {
   height: 210px;
   width: 300px;
   display: flex;
@@ -478,7 +478,7 @@ aside h2 {
   box-shadow: 2px 2px 6px grey;
   cursor: pointer;
 }
-.Longchamps img {
+.longchamps img {
   height: 155px;
   width: 300px;
   object-fit: cover;
@@ -497,7 +497,7 @@ footer {
   background-color: #f2f2f2;
   border-radius: 10px;
 }
-.Liens {
+.liens {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -525,19 +525,28 @@ footer a {
     margin-right: 300px;
   }
   .nav_inscrire {
-    float: left;
+      float: right;
+      display: flex;
+      margin-top: 88px;
+      font-size: 1.1em;
   }
+  nav {
+    width: 10%;
+    flex-direction: row;
+    display: flex;
+  }
+
   section {
     margin: auto;
     width: auto;
     height: auto;
     flex-direction: column-reverse;
   }
-  .hébergements {
+  .hebergements {
     margin: auto;
   }
 
-  .Afficher_plus h3 {
+  .afficher_plus h3 {
     margin-right: 600px;
   }
   .populaires {
@@ -568,21 +577,21 @@ footer a {
     margin: auto;
   }
 
-  .activités {
+  .activites {
     flex-wrap: wrap;
   }
 
-  .activités > div > a {
+  .activites > div > a {
     height: 190px;
     margin-top: 20px;
     width: auto;
     margin: auto;
   }
-  .activités > div > a > img {
+  .activites > div > a > img {
     height: 150px;
     width: 220px;
   }
-  .activités > div > a > h3 {
+  .activites > div > a > h3 {
     font-size: 0.8em;
   }
 }
@@ -602,7 +611,7 @@ footer a {
     position: relative;
   }
   .logo img {
-    width: 30%;
+    width: 50%;
     margin-right: 20px;
     margin-left: 10px;
     margin-top: 75px;
@@ -611,12 +620,12 @@ footer a {
   .nav_inscrire {
     margin: 0;
     position: absolute;
-    top: 90px;
-    right: 50px;
+    top: 9px;
+    right: 104px;
   }
 
   nav {
-    width: 100%;
+    width: 50%;
     flex-direction: row;
     display: flex;
   }
@@ -643,19 +652,19 @@ footer a {
   .nav_border-top div {
     margin: 0;
   }
-  .nav_hébergements {
+  .nav_hebergements {
     width: 50%;
     text-align: center;
   }
-  .nav_hébergements :hover {
+  .nav_hebergements :hover {
     border-bottom: #0065fc;
   }
 
-  .nav_activités {
+  .nav_activites {
     width: 50%;
     text-align: center;
   }
-  .nav_activités :hover {
+  .nav_activites :hover {
     border-bottom: #0065fc;
   }
 
@@ -682,7 +691,7 @@ footer a {
   }
   .filtres {
     height: auto;
-    width: auto;
+    width: 20px;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 20px;
@@ -707,7 +716,7 @@ footer a {
   aside {
     margin-top: 0;
   }
-  .hébergements {
+  .hebergements {
     height: auto;
     width: 100%;
     flex-direction: column;
@@ -716,7 +725,7 @@ footer a {
     box-shadow: none;
   }
 
-  .hébergements h2 {
+  .hebergements h2 {
     margin-right: 0;
     margin-left: 20px;
   }
@@ -739,7 +748,7 @@ footer a {
     width: auto;
   }
 
-  .Afficher_plus h3 {
+  .afficher_plus h3 {
     margin-right: 220px;
   }
   .populaires {
@@ -760,26 +769,26 @@ footer a {
     width: 100%;
     height: auto;
   }
-  .activités {
+  .activites {
     flex-wrap: nowrap;
     height: auto;
   }
   aside h2 {
     margin-left: 20px;
   }
-  .activités > div {
+  .activites > div {
     height: auto;
     width: 90%;
     margin-top: 20px;
   }
 
-  .activités > div > a {
+  .activites > div > a {
     height: 190px;
     margin-top: 20px;
     width: auto;
     margin: auto;
   }
-  .activités > div > a > img {
+  .activites > div > a > img {
     height: 130px;
     width: auto;
   }
@@ -791,7 +800,7 @@ footer a {
     height: auto;
     padding-bottom: 20px;
   }
-  .Liens {
+  .liens {
     margin: 0px;
     margin-top: 20px;
   }
