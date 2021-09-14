@@ -1,4 +1,4 @@
-/**************fonts***********/
+/*****************fonts***********/
 
 p {
   font-family: "raleway", sans-serif;
@@ -518,15 +518,24 @@ footer a {
     margin: auto;
     margin-left: 20px;
   }
-  .top_page {
+  .Top_page {
     flex-wrap: nowrap;
   }
-  .top_page img {
+  .Top_page img {
     margin-right: 300px;
   }
   .nav_inscrire {
-    float: left;
+      float: right;
+      display: flex;
+      margin-top: 88px;
+      font-size: 1.1em;
   }
+  nav {
+    width: 10%;
+    flex-direction: row;
+    display: flex;
+  }
+
   section {
     margin: auto;
     width: auto;
@@ -602,17 +611,17 @@ footer a {
     position: relative;
   }
   .logo img {
-    width: 100%;
+    width: 65%;
     margin-right: 20px;
     margin-left: 10px;
-    margin-top: 75px;
+    margin-top: 15px;
   }
 
   .nav_inscrire {
     margin: 0;
     position: absolute;
-    top: 90px;
-    right: 50px;
+    top: 30px;
+    right: 29px;
   }
 
   nav {
@@ -655,12 +664,12 @@ footer a {
     width: 50%;
     text-align: center;
   }
-  .nav_activites :hover 
+  .nav_activites :hover {
     border-bottom: #0065fc;
   }
 
   .presentation {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 10px;
   }
   .champs_de_recherche {
@@ -682,7 +691,7 @@ footer a {
   }
   .filtres {
     height: auto;
-    width: auto;
+    width: 20px;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 20px;
@@ -720,7 +729,7 @@ footer a {
     margin-right: 0;
     margin-left: 20px;
   }
-  .afficher_plus {
+  .Afficher_plus {
     margin-left: 20px;
   }
   .offres {
