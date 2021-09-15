@@ -611,21 +611,21 @@ footer a {
     position: relative;
   }
   .logo img {
-    width: 50%;
+    width: 65%;
     margin-right: 20px;
     margin-left: 10px;
-    margin-top: 75px;
+    margin-top: 15px;
   }
 
   .nav_inscrire {
     margin: 0;
     position: absolute;
-    top: 9px;
-    right: 104px;
+    top: 30px;
+    right: 29px;
   }
 
   nav {
-    width: 50%;
+    width: 100%;
     flex-direction: row;
     display: flex;
   }
